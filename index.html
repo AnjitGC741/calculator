@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="mainBox">
+        <input type="text" value="0" id="display">
+        <div class="forButton">
+                  <button onclick="forNumber(7)">7</button> 
+                  <button onclick="forNumber(8)">8</button> 
+                  <button onclick="forNumber(9)">9</button> 
+                  <button id="del" style="font-size:25px" onclick="clear1()">Del</button> 
+                  <button onclick="forNumber(4)">4</button> 
+                  <button onclick="forNumber(5)">5</button> 
+                  <button onclick="forNumber(6)">6</button> 
+                  <button onclick="forNumber('-')">-</button>
+                  <button onclick="forNumber(1)">1</button> 
+                  <button onclick="forNumber(2)">2</button> 
+                  <button onclick="forNumber(3)">3</button> 
+                  <button onclick="forNumber('+')">+</button>
+                  <button onclick="forNumber('*')">*</button> 
+                  <button onclick="forNumber(0)">0</button> 
+                  <button onclick="forNumber('/')">/</button> 
+                  <button id="equal" onclick="forAns()">=</button>   
+        </div>
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
